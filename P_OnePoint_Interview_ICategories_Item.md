@@ -1,0 +1,45 @@
+# ICategories.Item Property (Enumerator)
+ 
+
+Index that refers the categories using an enumerator
+
+**Namespace:**&nbsp;<a href="N_OnePoint_Interview">OnePoint.Interview</a><br />**Assembly:**&nbsp;OnePoint.Interview (in OnePoint.Interview.dll) Version: 1.5.0.0 (1.5.0.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+ICategory this[
+	Enumerator index
+] { get; set; }
+```
+
+**VB**<br />
+``` VB
+Default Property Item ( 
+	index As Enumerator
+) As ICategory
+	Get
+	Set
+```
+
+**C++**<br />
+``` C++
+property ICategory^ default[Enumerator^ index] {
+	ICategory^ get (Enumerator^ index);
+	void set (Enumerator^ index, ICategory^ value);
+}
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>index</dt><dd>Type: Enumerator<br />The index.</dd></dl>
+
+#### Return Value
+Type: <a href="T_OnePoint_Interview_ICategory">ICategory</a><br />The <a href="T_OnePoint_Interview_ICategory">ICategory</a>.
+
+## See Also
+
+
+#### Reference
+<a href="T_OnePoint_Interview_ICategories">ICategories Interface</a><br /><a href="Overload_OnePoint_Interview_ICategories_Item">Item Overload</a><br /><a href="N_OnePoint_Interview">OnePoint.Interview Namespace</a><br />
